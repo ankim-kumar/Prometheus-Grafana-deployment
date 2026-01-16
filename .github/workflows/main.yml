@@ -10,7 +10,7 @@ env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
   CLUSTER_NAME: ${{ secrets.GKE_CLUSTER_NAME }}
   CLUSTER_ZONE: ${{ secrets.GKE_REGION }}
-  NAMESPACE: monitoring-dev
+  NAMESPACE: monitoring
 
 jobs:
   deploy:
