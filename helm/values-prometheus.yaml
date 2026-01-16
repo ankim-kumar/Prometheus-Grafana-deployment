@@ -2,3 +2,5 @@ server:
   service:
     type: LoadBalancer
     port: 80
+nodeExporter:
+  enabled: false
