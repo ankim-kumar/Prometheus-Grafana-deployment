@@ -68,4 +68,4 @@ jobs:
     - name: Verify Services
       run: |
         kubectl get pods -n $NAMESPACE
-        kubectl get svc -n $NAMESPACE
+        kubectl get svc -n $NAMESPACE 
