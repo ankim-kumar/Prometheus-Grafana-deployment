@@ -63,7 +63,7 @@ jobs:
       run: |
         helm upgrade --install grafana grafana/grafana \
           -n $NAMESPACE \
-          -f helm/values-grafana.yaml
+          -f helm/values-grafana.yaml 
 
     - name: Verify Services
       run: |
