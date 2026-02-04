@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+  PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }} 
   CLUSTER_NAME: ${{ secrets.GKE_CLUSTER_NAME }}
   CLUSTER_ZONE: ${{ secrets.GKE_REGION }}
   NAMESPACE: monitoring
